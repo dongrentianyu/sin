@@ -1,3 +1,4 @@
 title: $:/SiteTitle
+type: text/vnd.tiddlywiki
 
-<<lingo Name $:/plugins/your-name/plugin-name/language/>>
+马不前定制化插件

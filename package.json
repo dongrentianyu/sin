@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "tiddlywiki-plugin-dev dev",
     "dev:wiki": "tiddlywiki-plugin-dev dev --write-wiki",
+    "112": "tiddlywiki-plugin-dev dev --write-wiki",
     "test": "tiddlywiki-plugin-dev test",
     "build": "npm run clean && tiddlywiki-plugin-dev build",
     "publish": "npm run clean && tiddlywiki-plugin-dev publish",
@@ -33,7 +34,7 @@
     ]
   },
   "devDependencies": {
-    "@modern-js/tsconfig": "^2.60.4",
+    "@modern-js/tsconfig": "^2.60.5",
     "@types/jasmine": "^5.1.4",
     "@types/node": "^22.7.9",
     "dprint": "^0.47.4",

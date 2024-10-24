@@ -19,8 +19,8 @@ importers:
         version: 0.3.1(postcss-load-config@4.0.2(postcss@8.4.47)(ts-node@10.9.2(@types/node@22.7.9)(typescript@5.6.3)))(postcss@8.4.47)(svelte@5.0.5)(ts-node@10.9.2(@types/node@22.7.9)(typescript@5.6.3))(typescript@5.6.3)
     devDependencies:
       '@modern-js/tsconfig':
-        specifier: ^2.60.4
-        version: 2.60.4
+        specifier: ^2.60.5
+        version: 2.60.5
       '@types/jasmine':
         specifier: ^5.1.4
         version: 5.1.4
@@ -388,8 +388,8 @@ packages:
   '@kwsites/promise-deferred@1.1.1':
     resolution: {integrity: sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==}
 
-  '@modern-js/tsconfig@2.60.4':
-    resolution: {integrity: sha512-fsnZaN/MK9KFtn2V36R4jKzxm+bg98SsiATP4gyhvx7mc3XKXpKdNiOlXsrCAHt+ceE0nVpf2AKqHAuaLS4TBg==}
+  '@modern-js/tsconfig@2.60.5':
+    resolution: {integrity: sha512-tjJgJq+T/djk7zrAxJNfHK9+m7oHD0rqtBAtMtKKnbPKy7ZypTRy3T2SrU4mIA3aLwz15cg6H3hH8fnHU9Kt/A==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -518,8 +518,8 @@ packages:
   '@types/less@3.0.6':
     resolution: {integrity: sha512-PecSzorDGdabF57OBeQO/xFbAkYWo88g4Xvnsx7LRwqLC17I7OoKtA3bQB9uXkY6UkMWCOsA8HSVpaoitscdXw==}
 
-  '@types/node@20.16.15':
-    resolution: {integrity: sha512-DV58qQz9dBMqVVn+qnKwGa51QzCD4YM/tQM16qLKxdf5tqz5W4QwtrMzjSTbabN1cFTSuyxVYBy+QWHjWW8X/g==}
+  '@types/node@20.17.0':
+    resolution: {integrity: sha512-a7zRo0f0eLo9K5X9Wp5cAqTUNGzuFLDG2R7C4HY2BhcMAsxgSPuRvAC1ZB6QkuUQXf0YZAgfOX2ZyrBa2n4nHQ==}
 
   '@types/node@22.7.9':
     resolution: {integrity: sha512-jrTfRC7FM6nChvU7X2KqcrgquofrWLFDeYC1hKfwNWomVvrn7JIksqf344WN2X/y8xrgqBd2dJATZV4GbatBfg==}
@@ -1065,8 +1065,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.43:
-    resolution: {integrity: sha512-NxnmFBHDl5Sachd2P46O7UJiMaMHMLSofoIWVJq3mj8NJgG0umiSeljAVP9lGzjI0UDLJJ5jjoGjcrB8RSbjLQ==}
+  electron-to-chromium@1.5.45:
+    resolution: {integrity: sha512-vOzZS6uZwhhbkZbcRyiy99Wg+pYFV5hk+5YaECvx0+Z31NR3Tt5zS6dze2OepT6PCTzVzT0dIJItti+uAW5zmw==}
 
   emoji-regex@10.4.0:
     resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
@@ -2408,8 +2408,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sass@1.80.3:
-    resolution: {integrity: sha512-ptDWyVmDMVielpz/oWy3YP3nfs7LpJTHIJZboMVs8GEC9eUmtZTZhMHlTW98wY4aEorDfjN38+Wr/XjskFWcfA==}
+  sass@1.80.4:
+    resolution: {integrity: sha512-rhMQ2tSF5CsuuspvC94nPM9rToiAFw2h3JTrLlgmNw1MH79v8Cr3DH6KF6o6r+8oofY3iYVPUf66KzC8yuVN1w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -3097,7 +3097,7 @@ snapshots:
 
   '@kwsites/promise-deferred@1.1.1': {}
 
-  '@modern-js/tsconfig@2.60.4': {}
+  '@modern-js/tsconfig@2.60.5': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -3194,7 +3194,7 @@ snapshots:
 
   '@types/less@3.0.6': {}
 
-  '@types/node@20.16.15':
+  '@types/node@20.17.0':
     dependencies:
       undici-types: 6.19.8
 
@@ -3206,7 +3206,7 @@ snapshots:
 
   '@types/sass@1.45.0':
     dependencies:
-      sass: 1.80.3
+      sass: 1.80.4
 
   '@types/semver@7.5.8': {}
 
@@ -3548,7 +3548,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001669
-      electron-to-chromium: 1.5.43
+      electron-to-chromium: 1.5.45
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -3808,7 +3808,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.43: {}
+  electron-to-chromium@1.5.45: {}
 
   emoji-regex@10.4.0: {}
 
@@ -5364,7 +5364,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass@1.80.3:
+  sass@1.80.4:
     dependencies:
       '@parcel/watcher': 2.4.1
       chokidar: 4.0.1
@@ -5573,14 +5573,14 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-preprocess@6.0.3(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.47)(ts-node@10.9.2(@types/node@22.7.9)(typescript@5.6.3)))(postcss@8.4.47)(sass@1.80.3)(stylus@0.59.0)(svelte@5.0.5)(typescript@5.6.3):
+  svelte-preprocess@6.0.3(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.47)(ts-node@10.9.2(@types/node@22.7.9)(typescript@5.6.3)))(postcss@8.4.47)(sass@1.80.4)(stylus@0.59.0)(svelte@5.0.5)(typescript@5.6.3):
     dependencies:
       svelte: 5.0.5
     optionalDependencies:
       less: 4.2.0
       postcss: 8.4.47
       postcss-load-config: 4.0.2(postcss@8.4.47)(ts-node@10.9.2(@types/node@22.7.9)(typescript@5.6.3))
-      sass: 1.80.3
+      sass: 1.80.4
       stylus: 0.59.0
       typescript: 5.6.3
 
@@ -5667,11 +5667,11 @@ snapshots:
       less: 4.2.0
       lodash: 4.17.21
       postcss-import: 15.1.0(postcss@8.4.47)
-      sass: 1.80.3
+      sass: 1.80.4
       sha256: 0.2.0
       simple-git: 3.27.0
       stylus: 0.59.0
-      svelte-preprocess: 6.0.3(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.47)(ts-node@10.9.2(@types/node@22.7.9)(typescript@5.6.3)))(postcss@8.4.47)(sass@1.80.3)(stylus@0.59.0)(svelte@5.0.5)(typescript@5.6.3)
+      svelte-preprocess: 6.0.3(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.47)(ts-node@10.9.2(@types/node@22.7.9)(typescript@5.6.3)))(postcss@8.4.47)(sass@1.80.4)(stylus@0.59.0)(svelte@5.0.5)(typescript@5.6.3)
       tailwindcss: 3.4.14(ts-node@10.9.2(@types/node@22.7.9)(typescript@5.6.3))
       tiddlywiki: 5.3.5
       uglify-js: 3.19.3
@@ -5737,7 +5737,7 @@ snapshots:
     dependencies:
       '@types/codemirror': 5.60.15
       '@types/echarts': 4.9.22
-      '@types/node': 20.16.15
+      '@types/node': 20.17.0
 
   type-check@0.4.0:
     dependencies:

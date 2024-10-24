@@ -1,0 +1,13 @@
+caption: {{$:/language/codemirror6/foldByIndent/caption}}
+caption-zh: {{$:/language/codemirror6/zh/foldByIndent/caption}}
+created: 20241019150717336
+description: {{$:/language/codemirror6/foldByIndent/description}}
+description-zh: {{$:/language/codemirror6/zh/foldByIndent/description}}
+id: 4
+modified: 20241019150717336
+settings-group: fold
+settings-template: input-switch
+title: $:/config/codemirror-6/foldByIndent
+type: text/vnd.tiddlywiki
+
+yes
