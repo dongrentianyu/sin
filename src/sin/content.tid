@@ -1,0 +1,5 @@
+title: $:/plugins/mabuqian/sin/content
+tags: $:/tags/sin
+description: the main content
+
+<$transclude tiddler={{{ [[$:/state/sin/content]get[text]] :else[[$:/config/sin/content]get[text]]}}} mode="block"/>

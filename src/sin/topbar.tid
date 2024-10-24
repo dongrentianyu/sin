@@ -1,4 +1,16 @@
 title: $:/plugins/mabuqian/sin/topbar
-tags: 
+tags: $:/tags/sin
 description: topbar for sin
 
+<$button to=<<currentTiddler>> tooltip={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[返回标准布局]else[Back to Standard layout]] }}} >
+    <$action-setfield $tiddler="$:/layout" text="" />
+        {{$:/core/images/layout-button}}
+</$button>
+<$button to=<<currentTiddler>> tooltip={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[主页]else[homepage]] }}} >
+    <$action-setfield $tiddler="$:/state/sin/content" text="$:/plugins/mabuqian/sin/content/homepage" />
+        <$text text={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[主页]else[homepage]] }}} />
+</$button>
+<$button to=<<currentTiddler>> tooltip={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[CPL]else[CPL]] }}} >
+    <$action-setfield $tiddler="$:/state/sin/content" text="$:/plugins/mabuqian/sin/content/CPL" />
+        <$text text={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[CPL]else[CPL]] }}} />
+</$button>

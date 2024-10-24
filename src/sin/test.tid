@@ -3,4 +3,17 @@ tags: $:/tags/Layout
 name: sin-test
 description: Test layout for sin plugin
 
-just some test text
+<div class="parent">
+<div class="div1"> 
+
+{{$:/plugins/mabuqian/sin/topbar}}
+
+</div>
+<div class="div4"> 
+
+{{$:/plugins/mabuqian/sin/content}}
+
+</div>
+<div class="div2"> </div>
+<div class="div3"> </div>
+</div>
