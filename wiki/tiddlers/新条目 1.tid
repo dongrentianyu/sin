@@ -1,0 +1,14 @@
+created: 20241024163329169
+modified: 20241024163335536
+tags: 代码片段
+title: 新条目 1
+type: text/vnd.tiddlywiki
+
+
+```
+<$button to=<<currentTiddler>> class="cpl-layout-back-button cpl-normal-button">
+	<$action-setfield $tiddler="$:/layout" text="" />
+    {{$:/core/images/default-layout}}
+    <$text text={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[返回标准布局]else[Back to Standard layout]] }}} />
+</$button>
+```

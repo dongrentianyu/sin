@@ -1,9 +1,9 @@
 {
-  "title": "$:/themes/mabuqian/sin",
+  "title": "$:/plugins/mabuqian/sin",
   "name": "sin",
   "author": "mabuqian",
   "description": "a simple theme",
-  "plugin-type": "theme",
+  "plugin-type": "plugin",
   "version": "0.0.1",
   "list": "readme"
 }
