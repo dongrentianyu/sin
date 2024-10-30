@@ -1,0 +1,10 @@
+title: $:/plugins/mabuqian/sin/macro
+tags: $:/tags/Macro
+type: text/vnd.tiddlywiki
+
+\define sin-topbar-button(tiddler,zh,en)
+<$button to=<<currentTiddler>> tooltip={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[$zh$]else[$en$]] }}} >
+    <$action-setfield $tiddler="$:/state/sin/content" text="$tiddler$" />
+        <$text text={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[$zh$]else[$en$]] }}} />
+</$button>
+\end

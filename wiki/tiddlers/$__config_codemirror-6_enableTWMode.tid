@@ -1,0 +1,13 @@
+caption: {{$:/language/codemirror6/enableTWMode/caption}}
+caption-zh: {{$:/language/codemirror6/zh/enableTWMode/caption}}
+created: 20241030074008527
+description: {{$:/language/codemirror6/enableTWMode/description}}
+description-zh: {{$:/language/codemirror6/zh/enableTWMode/description}}
+id: 45
+modified: 20241030074008527
+settings-group: general
+settings-template: input-switch
+title: $:/config/codemirror-6/enableTWMode
+type: text/vnd.tiddlywiki
+
+no

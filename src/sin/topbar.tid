@@ -2,15 +2,13 @@ title: $:/plugins/mabuqian/sin/topbar
 tags: $:/tags/sin
 description: topbar for sin
 
+\import [[$:/plugins/mabuqian/sin/macro]] 
+
 <$button to=<<currentTiddler>> tooltip={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[返回标准布局]else[Back to Standard layout]] }}} >
     <$action-setfield $tiddler="$:/layout" text="" />
         {{$:/core/images/layout-button}}
 </$button>
-<$button to=<<currentTiddler>> tooltip={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[主页]else[homepage]] }}} >
-    <$action-setfield $tiddler="$:/state/sin/content" text="$:/plugins/mabuqian/sin/content/homepage" />
-        <$text text={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[主页]else[homepage]] }}} />
-</$button>
-<$button to=<<currentTiddler>> tooltip={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[CPL]else[CPL]] }}} >
-    <$action-setfield $tiddler="$:/state/sin/content" text="$:/plugins/mabuqian/sin/content/CPL" />
-        <$text text={{{ [[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]search[zh]then[CPL]else[CPL]] }}} />
-</$button>
+<$transclude $variable="sin-topbar-button" tiddler="$:/plugins/mabuqian/sin/content/homepage"  zh="主页" en="homepage"/>
+<$transclude $variable="sin-topbar-button" tiddler="$:/plugins/mabuqian/sin/content/CPL"  zh="CPL" en="CPL-EN"/>
+<$transclude $variable="sin-topbar-button" tiddler="$:/plugins/mabuqian/sin/content/ControlPanel"  zh="控制台" en="ControlPanel"/>
+<$transclude $variable="sin-topbar-button" tiddler="$:/plugins/mabuqian/sin/content/story-river"  zh="故事河" en="story-river"/>

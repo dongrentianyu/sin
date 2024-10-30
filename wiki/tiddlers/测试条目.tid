@@ -1,0 +1,9 @@
+created: 20241030073753699
+modified: 20241030074032501
+tags: 
+title: 测试条目
+type: text/vnd.tiddlywiki
+
+随便写点内容，试试会不会嵌入进去
+
+`{{$:/ControlPanel}}`，这样嵌入进去不会显示。可能需要去论坛提问一下。
