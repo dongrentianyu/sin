@@ -1,0 +1,32 @@
+created: 20201217172915960
+modified: 20210123211851680
+title: $:/plugins/mabuqian/xnote/themetweaks
+tags: $:/tags/ControlPanel/Appearance
+caption: {{$:/language/ThemeTweaks/ThemeTweaks}}
+
+\define lingo-base() $:/language/ThemeTweaks/
+
+You can tweak certain aspects of the ''Notebook'' theme.
+
+! <<lingo Options>>
+
+|<$link to="$:/plugins/mabuqian/xnote/options/stickytitles"><<lingo Options/StickyTitles>></$link><br>//<<lingo Options/StickyTitles/Hint>>// |<$select tiddler="$:/plugins/mabuqian/xnote/options/stickytitles"><option value="no">{{$:/language/No}}</option><option value="yes">{{$:/language/Yes}}</option></$select> |
+|<$link to="$:/themes/tiddlywiki/vanilla/options/codewrapping"><<lingo Options/CodeWrapping>></$link> |<$select tiddler="$:/themes/tiddlywiki/vanilla/options/codewrapping"><option value="pre">{{$:/language/No}}</option><option value="pre-wrap">{{$:/language/Yes}}</option></$select> |
+|<$link to="$:/plugins/mabuqian/xnote/options/reveal-tiddler-controls-on-hover">Reveal tiddler controls on mouseover</$link> |<$select tiddler="$:/plugins/mabuqian/xnote/options/reveal-tiddler-controls-on-hover"><option value="no">{{$:/language/No}}</option><option value="yes">{{$:/language/Yes}}</option></$select> |
+
+! <<lingo Settings>>
+
+|<$link to="$:/plugins/mabuqian/xnote/settings/fontfamily"><<lingo Settings/FontFamily>></$link> |<$edit-text tiddler="$:/plugins/mabuqian/xnote/settings/fontfamily" default="" tag="input"/> | |
+|<$link to="$:/plugins/mabuqian/xnote/settings/codefontfamily"><<lingo Settings/CodeFontFamily>></$link> |<$edit-text tiddler="$:/plugins/mabuqian/xnote/settings/codefontfamily" default="" tag="input"/> | |
+|<$link to="$:/plugins/mabuqian/xnote/settings/editorfontfamily"><<lingo Settings/EditorFontFamily>></$link> |<$edit-text tiddler="$:/plugins/mabuqian/xnote/settings/editorfontfamily" default="" tag="input"/> | |
+
+! <<lingo Metrics>>
+
+|<$link to="$:/themes/tiddlywiki/vanilla/metrics/fontsize"><<lingo Metrics/FontSize>></$link> |<$edit-text tiddler="$:/themes/tiddlywiki/vanilla/metrics/fontsize" default="" tag="input"/> |
+|<$link to="$:/themes/tiddlywiki/vanilla/metrics/lineheight"><<lingo Metrics/LineHeight>></$link> |<$edit-text tiddler="$:/themes/tiddlywiki/vanilla/metrics/lineheight" default="" tag="input"/> |
+|<$link to="$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize"><<lingo Metrics/BodyFontSize>></$link> |<$edit-text tiddler="$:/plugins/mabuqian/xnote/metrics/bodyfontsize" default="" tag="input"/> |
+|<$link to="$:/themes/tiddlywiki/vanilla/metrics/bodylineheight"><<lingo Metrics/BodyLineHeight>></$link> |<$edit-text tiddler="$:/plugins/mabuqian/xnote/metrics/bodylineheight" default="" tag="input"/> |
+|<$link to="$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint"><<lingo Metrics/SidebarBreakpoint>></$link><br>//<<lingo Metrics/SidebarBreakpoint/Hint>>// |^<$edit-text tiddler="$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint" default="" tag="input"/> |
+|<$link to="$:/plugins/mabuqian/xnote/metrics/sidebar-width"><<lingo Metrics/SidebarWidth>></$link><br>//<<lingo Metrics/SidebarWidth/Hint>>// |^<$edit-text tiddler="$:/plugins/mabuqian/xnote/metrics/sidebar-width" default="" tag="input"/> |
+|<$link to="$:/plugins/mabuqian/xnote/metrics/story-width"><<lingo Metrics/StoryWidth>></$link><br>//<<lingo Metrics/StoryWidth/Hint>>// |^<$edit-text tiddler="$:/plugins/mabuqian/xnote/metrics/story-width" default="" tag="input"/> |
+

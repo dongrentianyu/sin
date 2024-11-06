@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/mabuqian/xnote",
+  "name": "xnote",
+  "author": "mabuqian",
+  "description": "some theme",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}

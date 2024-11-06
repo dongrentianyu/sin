@@ -1,5 +1,5 @@
 created: 20241030073753699
-modified: 20241030074032501
+modified: 20241106064412052
 tags: 
 title: 测试条目
 type: text/vnd.tiddlywiki
@@ -7,3 +7,8 @@ type: text/vnd.tiddlywiki
 随便写点内容，试试会不会嵌入进去
 
 `{{$:/ControlPanel}}`，这样嵌入进去不会显示。可能需要去论坛提问一下。
+
+
+
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/AdvancedSearch]!has[draft.of]]" default="$:/core/ui/AdvancedSearch/System" actions="""<$action-setfield $tiddler="$:/state/advancedsearch/currentTab" text=<<currentTab>>/>""" explicitState="$:/state/tab--1498284803"/>
+

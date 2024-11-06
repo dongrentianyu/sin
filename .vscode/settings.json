@@ -3,8 +3,11 @@
     "dropzone",
     "mabuqian",
     "removeprefix",
+    "stickytitles",
+    "Stylesheet",
     "subfilter",
     "topbar",
-    "transclude"
+    "transclude",
+    "xnote"
   ]
 }
