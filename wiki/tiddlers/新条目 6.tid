@@ -1,0 +1,27 @@
+created: 20241107180200948
+modified: 20241107182049650
+tags: $:/tags/PageTemplate
+title: 新条目 6
+type: text/vnd.tiddlywiki
+
+<style>
+.tc-rightmenu {
+    display: block;
+    padding: 0px 0px 0px 10px;
+    position: fixed;
+    right: 0px;
+    top: 60px;
+    width: 50px;
+    z-index: 98;
+    color: #000000;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.tc-rightmenu .tc-page-controls{
+gap:10px;
+}
+</style>
+<div class="tc-rightmenu tc-page-controls">
+{{$:/core/ui/SideBarSegments/page-controls}}
+</div>
+

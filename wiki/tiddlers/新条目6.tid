@@ -1,0 +1,22 @@
+created: 20241107175131987
+modified: 20241107181313212
+tags: 
+title: 新条目6
+type: text/vnd.tiddlywiki
+
+<style>
+.tc-leftmenu {
+    display: block;
+    padding: 40px 0px 0px 0px;
+    position: fixed;
+    left: 5px;
+    top: -20px;
+    width: 40px;
+    z-index: 99;
+    color: #000000;
+    font-size: 20px;
+}
+</style>
+<div class="tc-leftmenu tc-page-controls">
+{{$:/core/ui/SideBarSegments/page-controls}}
+</div>
