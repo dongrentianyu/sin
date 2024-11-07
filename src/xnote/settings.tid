@@ -1,0 +1,11 @@
+title: $:/plugins/mabuqian/xnote/settings
+tags: $:/tags/ControlPanel/Appearance
+list-before: $:/themes/tiddlywiki/vanilla/themetweaks
+caption: xnote/settings
+type: text/vnd.tiddlywiki
+
+<%if [{$:/language}removeprefix[$:/languages/]split[]first[2]join[]match[zh]] %>
+  {{$:/plugins/mabuqian/xnote/overview/zh/settings}}
+<%else%>
+  {{$:/plugins/mabuqian/xnote/overview/en/settings}}
+<%endif%>

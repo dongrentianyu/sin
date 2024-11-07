@@ -1,7 +1,9 @@
 caption: ChangeLog
-created: 20201217180707912
-modified: 20210202214001915
-tags: 
 title: $:/plugins/mabuqian/xnote/changelog
 type: text/vnd.tiddlywiki
 
+<%if [{$:/language}removeprefix[$:/languages/]split[]first[2]join[]match[zh]] %>
+  {{$:/plugins/mabuqian/xnote/overview/zh/changelog}}
+<%else%>
+  {{$:/plugins/mabuqian/xnote/overview/en/changelog}}
+<%endif%>

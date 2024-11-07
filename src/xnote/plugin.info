@@ -5,5 +5,5 @@
   "description": "some theme",
   "plugin-type": "plugin",
   "version": "0.0.1",
-  "list": "readme"
+  "list": "readme settings changelog"
 }
