@@ -1,2 +1,10 @@
 title: $:/plugins/mabuqian/xnote/overview/zh/readme
 type: text/vnd.tiddlywiki
+
+本插件主要修改自[[notebook|https://saqimtiaz.github.io/sq-tw/notebook.html]]主题插件。因原插件已有多年未维护，加上我对其有一些特殊的修改，故以新的插件名发布。
+
+本插件暂不支持移动端使用，可能会出现一些问题。
+
+Code: https://github.com/dongrentianyu/sin
+
+Site: https://dongrentianyu.github.io/sin/

@@ -3,7 +3,11 @@ title: $:/plugins/mabuqian/xnote/changelog
 type: text/vnd.tiddlywiki
 
 <%if [{$:/language}removeprefix[$:/languages/]split[]first[2]join[]match[zh]] %>
-  {{$:/plugins/mabuqian/xnote/overview/zh/changelog}}
+
+{{$:/plugins/mabuqian/xnote/overview/zh/changelog}}
+
 <%else%>
-  {{$:/plugins/mabuqian/xnote/overview/en/changelog}}
+
+{{$:/plugins/mabuqian/xnote/overview/en/changelog}}
+
 <%endif%>

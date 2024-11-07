@@ -1,2 +1,8 @@
 title: $:/plugins/mabuqian/xnote/overview/en/changelog
 type: text/vnd.tiddlywiki
+
+! 0.1.0
+
+The top search box has been removed, leaving only the page button. Meanwhile, the sidebar has also removed the main title and subtitle, replacing them with a simple search box. The sidebar allows the selection of different styles.
+
+The settings style has been modified.

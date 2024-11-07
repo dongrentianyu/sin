@@ -2,7 +2,11 @@ title: $:/plugins/mabuqian/xnote/readme
 type: text/vnd.tiddlywiki
 
 <%if [{$:/language}removeprefix[$:/languages/]split[]first[2]join[]match[zh]] %>
-  {{$:/plugins/mabuqian/xnote/overview/zh/readme}}
+
+{{$:/plugins/mabuqian/xnote/overview/zh/readme}}
+
 <%else%>
-  {{$:/plugins/mabuqian/xnote/overview/en/readme}}
+
+{{$:/plugins/mabuqian/xnote/overview/en/readme}}
+
 <%endif%>

@@ -1,11 +1,8 @@
-created: 20210123210054185
-modified: 20210123211911688
-tags: 
 title: $:/plugins/mabuqian/xnote/metrics/story-width
 type: text/vnd.tiddlywiki
 
 <%if [{$:/state/notebook-sidebar}match[yes]] %>
-  750px
+  {{$:/config/xnote/story-width-sidebar}}
 <%else%>
-  1200px
+  {{$:/config/xnote/story-width-no-sidebar}}
 <%endif%>

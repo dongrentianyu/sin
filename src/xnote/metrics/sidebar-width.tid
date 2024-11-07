@@ -1,7 +1,4 @@
-created: 20200429144554294
-modified: 20201210210231246
-tags: 
 title: $:/plugins/mabuqian/xnote/metrics/sidebar-width
 type: text/vnd.tiddlywiki
 
-450px
+{{$:/config/xnote/sidebar-width}}

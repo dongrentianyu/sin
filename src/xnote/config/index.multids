@@ -5,3 +5,9 @@ shortcuts/notebook-focus-search: ctrl+shift+F
 Search/AutoFocus: false
 shortcuts/sidebar-search:
 Sidebar/Sections: sidebar-button
+xnote/bodyfontsize: 24px
+xnote/bodylineheight: 22px
+xnote/sidebar-width: 450px
+xnote/topbar-height: 60px
+xnote/story-width-sidebar: 750px
+xnote/story-width-no-sidebar: 1200px

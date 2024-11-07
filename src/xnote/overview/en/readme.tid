@@ -1,2 +1,10 @@
 title: $:/plugins/mabuqian/xnote/overview/en/readme
 type: text/vnd.tiddlywiki
+
+This plugin is mainly modified from the [[notebook|https://saqimtiaz.github.io/sq-tw/notebook.html]] theme plugin. Since the original plugin has not been maintained for many years, and I have made some special modifications to it, I am releasing it under a new plugin name.
+
+This plugin does not currently support mobile devices, and there may be some issues.
+
+Code: https://github.com/dongrentianyu/sin
+
+Site: https://dongrentianyu.github.io/sin/

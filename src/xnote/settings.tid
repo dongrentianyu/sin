@@ -5,7 +5,11 @@ caption: xnote/settings
 type: text/vnd.tiddlywiki
 
 <%if [{$:/language}removeprefix[$:/languages/]split[]first[2]join[]match[zh]] %>
-  {{$:/plugins/mabuqian/xnote/overview/zh/settings}}
+
+{{$:/plugins/mabuqian/xnote/overview/zh/settings}}
+
 <%else%>
-  {{$:/plugins/mabuqian/xnote/overview/en/settings}}
+
+{{$:/plugins/mabuqian/xnote/overview/en/settings}}
+
 <%endif%>

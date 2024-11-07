@@ -1,2 +1,8 @@
 title: $:/plugins/mabuqian/xnote/overview/zh/changelog
 type: text/vnd.tiddlywiki
+
+! 0.1.0
+
+移除了顶部搜索框，只保留了页面按钮。同时侧边栏也移除了主标题和副标题，取而代之的是简易搜索框。侧边栏可供选择不同样式。
+
+修改了设置样式。
