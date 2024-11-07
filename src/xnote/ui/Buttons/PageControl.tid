@@ -1,0 +1,17 @@
+tags: $:/tags/PageControls
+caption: PageControls
+description: The toolbar of the xnote plugin
+title: $:/plugins/mabuqian/xnote/ui/Buttons/PageControls
+type: text/vnd.tiddlywiki
+
+<$reveal state="$:/state/notebook-sidebar" type="match" text="yes" default="no" retain="yes" animate="no">
+  <$button set="$:/state/notebook-sidebar" setTo="no" tooltip="Toggle menu" class="tc-btn-invisible">
+    {{$:/plugins/mabuqian/xnote/images/bars}}
+  </$button>
+</$reveal>
+
+<$reveal type="nomatch" state="$:/state/notebook-sidebar" text="yes">
+  <$button set="$:/state/notebook-sidebar" setTo="yes" tooltip="Toggle menu" class="tc-btn-invisible ">
+    {{$:/plugins/mabuqian/xnote/images/bars}}
+  </$button>
+</$reveal>

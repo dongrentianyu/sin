@@ -1,0 +1,4 @@
+title: $:/plugins/mabuqian/xnote/ui/Sidebar/sidebar-tabs
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/SideBarSegments/tabs}}

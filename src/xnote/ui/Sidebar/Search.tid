@@ -1,9 +1,10 @@
 created: 20200429191943257
 modified: 20210124220152702
-tags: $:/plugins/mabuqian/xnote/tags/Sidebar
+tags: 
 title: $:/plugins/mabuqian/xnote/ui/Sidebar/Search
 type: text/vnd.tiddlywiki
 
+<!-- $:/plugins/mabuqian/xnote/tags/Sidebar -->
 <div class="mobile-only">
   <div class="segment">
     <div class="content search">

@@ -4,6 +4,15 @@ tags: $:/plugins/mabuqian/xnote/tags/Sidebar
 title: $:/plugins/mabuqian/xnote/ui/Sidebar/Sections
 type: text/vnd.tiddlywiki
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[$:/tags/SideBar]]">
-  {{||$:/plugins/mabuqian/xnote/ui/Sidebar/SectionTemplate}}
+
+<%if [{$:/config/Sidebar/Sections}match[notebook]] %>
+  <$list filter="[all[shadows+tiddlers]!has[draft.of]tag[$:/tags/SideBar]]">
+    {{||$:/plugins/mabuqian/xnote/ui/Sidebar/SectionTemplate}}
 </$list>
+
+<%elseif [{$:/config/Sidebar/Sections}match[sidebar-tabs]] %>
+  {{$:/plugins/mabuqian/xnote/ui/Sidebar/sidebar-tabs}}
+<%elseif [{$:/config/Sidebar/Sections}match[sidebar-button]] %>
+  {{$:/plugins/mabuqian/xnote/ui/Sidebar/sidebar-button}}
+<%endif%>
+

@@ -13,11 +13,11 @@ type: text/vnd.tiddlywiki
         </$reveal>
       </$list>
       <div class="left">
-	{{$:/plugins/mabuqian/xnote/ui/Buttons/menu}}
-        {{$:/plugins/mabuqian/xnote/ui/Search}}
+	<!--  {{$:/plugins/mabuqian/xnote/ui/Buttons/menu}}
+        {{$:/plugins/mabuqian/xnote/ui/Search}} -->
       </div>
       <div class="right">
-        {{$:/core/ui/SideBarSegments/page-controls}}
+      {{$:/core/ui/SideBarSegments/page-controls}}
       </div>
     </div>
   </div>

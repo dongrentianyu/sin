@@ -1,0 +1,7 @@
+tags: $:/plugins/mabuqian/xnote/tags/Sidebar
+title: $:/plugins/mabuqian/xnote/ui/Sidebar/simple-search
+type: text/vnd.tiddlywiki
+
+<div style="display: flex; justify-content: center; align-items: center;  margin: 0; padding-left: 20px;">
+      {{$:/core/ui/SideBarSegments/search}}
+</div>

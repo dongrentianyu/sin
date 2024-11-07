@@ -10,6 +10,7 @@
     "subfilter",
     "topbar",
     "transclude",
+    "wikify",
     "xnote"
   ]
 }

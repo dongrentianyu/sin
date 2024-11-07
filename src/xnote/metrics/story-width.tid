@@ -4,4 +4,8 @@ tags:
 title: $:/plugins/mabuqian/xnote/metrics/story-width
 type: text/vnd.tiddlywiki
 
-800px
+<%if [{$:/state/notebook-sidebar}match[yes]] %>
+  750px
+<%else%>
+  1200px
+<%endif%>

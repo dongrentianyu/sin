@@ -1,0 +1,22 @@
+title: $:/plugins/mabuqian/xnote/ui/Sidebar/sidebar-button
+type: text/vnd.tiddlywiki
+
+<$let a={{{ [[$:/state/tab/sidebar]get[text]] }}} >
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/SideBar]enlist-input[]]" variable="thisTitle">
+<$button>
+<$action-setfield $tiddler="$:/state/tab/sidebar" text=<<thisTitle>>/>
+<%if [<thisTitle>has[caption]] %>
+<$wikify name="test-tid" text={{{ [<thisTitle>get[caption]] }}}>
+<<test-tid>>
+</$wikify>
+
+<%else%>
+  <<thisTitle>>
+<%endif%>
+
+</$button>
+</$list>
+
+<$transclude tiddler=<<a>> mode="block"/>
+
+</$let>
