@@ -53,14 +53,17 @@ h1.tc-site-title {
 }
 
 .nc-bar {
+
+  position: relative;
   padding: 10px;
   height: {{$:/plugins/mabuqian/xnote/metrics/topbar-height}};
-  background: <<colour page-background>>;
+  background: none;
   display: flex;
   justify-content: space-between;
 }
 
 .nc-topbar-wrapper {
+  background: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -71,7 +74,7 @@ h1.tc-site-title {
 
 .nc-bar.nc-topbar {
   top: 0;
-  background: <<colour page-background>>ee;
+  background: none;
   max-width: calc({{$:/plugins/mabuqian/xnote/metrics/story-width}} + 40px);
   padding: 10px 20px;
   margin: 0 auto;

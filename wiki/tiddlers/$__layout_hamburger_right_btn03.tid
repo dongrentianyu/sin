@@ -1,0 +1,11 @@
+created: 20230520150239290
+modified: 20230520161749764
+tags: $:/tags/HamburgerLayout/RightButton
+title: $:/layout/hamburger/right/btn03
+tooltip: new image
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<$button actions={{$:/core/ui/Actions/new-image}} tooltip={{$:/language/Buttons/NewImage/Hint}} aria-label={{$:/language/Buttons/NewImage/Caption}} class="tc-btn-invisible menu-item" >
+{{$:/core/images/new-image-button}}
+</$button>

@@ -1,0 +1,17 @@
+circular-menu-left: circular-menu circular-menu-left
+circular-menu-right: circular-menu
+code-body: yes
+created: 20230519163552642
+modified: 20241107163934031
+tags: 
+title: $:/layout/hamburger/menu-right
+type: text/vnd.tiddlywiki
+
+<div class={{$:/layout/hamburger/menu-right!!circular-menu-right}} >
+ <$button class="floating-btn tc-btn-invisible" actions=<<btn-actions>> >
+     <i class="fa fa-plus"></i>
+  </$button>
+  <menu class="items-wrapper">
+  <$list filter="[tag[$:/tags/HamburgerLayout/RightButton]!is[draft]]" variable=listItem><$transclude tiddler=<<listItem>>/></$list>
+  </menu>
+</div>

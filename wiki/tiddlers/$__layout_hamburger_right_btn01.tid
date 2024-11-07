@@ -1,0 +1,12 @@
+created: 20230520161119573
+icon: $:/core/images/new-button
+modified: 20230520161125237
+tags: $:/tags/HamburgerLayout/RightButton
+title: $:/layout/hamburger/right/btn01
+tooltip: new tiddler
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<$button actions={{$:/core/ui/Actions/new-tiddler}} tooltip={{$:/language/Buttons/NewTiddler/Hint}} aria-label={{$:/language/Buttons/NewTiddler/Caption}} class="tc-btn-invisible menu-item">
+{{$:/core/images/new-button}}
+</$button>

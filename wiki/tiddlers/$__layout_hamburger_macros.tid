@@ -1,0 +1,12 @@
+created: 20230520132640789
+modified: 20230520144241995
+tags: $:/tags/Macro
+title: $:/layout/hamburger/macros
+type: text/vnd.tiddlywiki
+
+\define btn-actions()
+<$action-listops $tiddler=<<currentTiddler>> $field="circular-menu-right" $subfilter="+[toggle[active]]" />
+\end
+\define btn-actions-left()
+<$action-listops $tiddler=<<currentTiddler>> $field="circular-menu-left" $subfilter="+[toggle[active]]" />
+\end

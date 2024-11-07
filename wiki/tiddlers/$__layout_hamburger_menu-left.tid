@@ -1,0 +1,20 @@
+circular-menu-left: circular-menu circular-menu-left
+circular-menu-right: circular-menu active
+code-body: yes
+created: 20230520145825337
+modified: 20230520145933715
+tags: 
+title: $:/layout/hamburger/menu-left
+type: text/vnd.tiddlywiki
+
+<div class={{$:/layout/hamburger/menu-right!!circular-menu-left}}>
+ <$button class="tc-btn-invisible floating-btn" actions=<<btn-actions-left>> >
+     <i class="fa fa-bars"></i>
+  </$button>
+  <menu class="items-wrapper">
+    <span class="menu-item fa fa-home"></span>
+    <span class="menu-item fa fa-user"></span>
+    <span class="menu-item fa fa-pie-chart"></span>
+    <span class="menu-item fa fa-cog"></span>
+  </menu>
+</div>
