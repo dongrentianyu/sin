@@ -5,6 +5,8 @@ This plugin is mainly modified from the [[notebook|https://saqimtiaz.github.io/s
 
 This plugin does not currently support mobile devices, and there may be some issues.
 
-Code: https://github.com/dongrentianyu/sin
+Code: https://github.com/dongrentianyu/sin/
 
 Site: https://dongrentianyu.github.io/sin/
+
+[[$:/core/ui/PageTemplate/sidebar]] is Overwritten by $:/plugins/mabuqian/xnote so that the default sidebar does not get rendered.Please remove [[$:/core/ui/PageTemplate/sidebar]] when uninstalling the plugin to restore the original state.

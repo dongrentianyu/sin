@@ -5,6 +5,8 @@ type: text/vnd.tiddlywiki
 
 本插件暂不支持移动端使用，可能会出现一些问题。
 
-Code: https://github.com/dongrentianyu/sin
+Code: https://github.com/dongrentianyu/sin/
 
 Site: https://dongrentianyu.github.io/sin/
+
+[[$:/core/ui/PageTemplate/sidebar]] 被 $:/plugins/mabuqian/xnote 重写，因此默认侧边栏不会被渲染。当卸载插件时，请删除 [[$:/core/ui/PageTemplate/sidebar]] 以恢复原本的状态。
