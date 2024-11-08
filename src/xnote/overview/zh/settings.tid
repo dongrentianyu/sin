@@ -1,19 +1,19 @@
 title: $:/plugins/mabuqian/xnote/overview/zh/settings
 type: text/vnd.tiddlywiki
 
-字体大小：<$edit-text tiddler="$:/config/xnote/bodyfontsize" tag=input/>
+[[字体大小|$:/config/xnote/bodyfontsize]]：<$edit-text tiddler="$:/config/xnote/bodyfontsize" tag=input/>
 
-行高：<$edit-text tiddler="$:/config/xnote/bodylineheight" tag=input/>
+[[行高|$:/config/xnote/bodylineheight]]：<$edit-text tiddler="$:/config/xnote/bodylineheight" tag=input/>
 
-顶部栏高度：<$edit-text tiddler="$:/config/xnote/topbar-height" tag=input/>
+[[顶部栏高度|$:/config/xnote/topbar-height]]：<$edit-text tiddler="$:/config/xnote/topbar-height" tag=input/>
 
-侧边栏宽度：<$edit-text tiddler="$:/config/xnote/sidebar-width" tag=input/>
+[[侧边栏宽度|$:/config/xnote/sidebar-width]]：<$edit-text tiddler="$:/config/xnote/sidebar-width" tag=input/>
 
-故事河宽度无侧边栏：<$edit-text tiddler="$:/config/xnote/story-width-no-sidebar" tag=input/>
+[[故事河宽度无侧边栏|$:/config/xnote/story-width-no-sidebar]]：<$edit-text tiddler="$:/config/xnote/story-width-no-sidebar" tag=input/>
 
-故事河宽度有侧边栏：<$edit-text tiddler="$:/config/xnote/story-width-sidebar" tag=input/>
+[[故事河宽度有侧边栏|$:/config/xnote/story-width-sidebar]]：<$edit-text tiddler="$:/config/xnote/story-width-sidebar" tag=input/>
 
-侧边栏样式：<$select tiddler='$:/config/Sidebar/Sections' tooltip='选择侧边栏样式'>
+[[侧边栏样式|$:/config/Sidebar/Sections]]：<$select tiddler='$:/config/Sidebar/Sections' tooltip='选择侧边栏样式'>
 <option>sidebar-button</option>
 <option>sidebar-tabs</option>
 <option>notebook</option>

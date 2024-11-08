@@ -1,19 +1,19 @@
 title: $:/plugins/mabuqian/xnote/overview/en/settings
 type: text/vnd.tiddlywiki
 
-Font size: <$edit-text tiddler="$:/config/xnote/bodyfontsize" tag=input/>
+[[Font size|$:/config/xnote/bodyfontsize]]: <$edit-text tiddler="$:/config/xnote/bodyfontsize" tag=input/>
 
-Line height: <$edit-text tiddler="$:/config/xnote/bodylineheight" tag=input/>
+[[Line height|$:/config/xnote/bodylineheight]]: <$edit-text tiddler="$:/config/xnote/bodylineheight" tag=input/>
 
-Top bar height: <$edit-text tiddler="$:/config/xnote/topbar-height" tag=input/>
+[[Top bar height|$:/config/xnote/topbar-height]]: <$edit-text tiddler="$:/config/xnote/topbar-height" tag=input/>
 
-Sidebar width: <$edit-text tiddler="$:/config/xnote/sidebar-width" tag=input/>
+[[Sidebar width|$:/config/xnote/sidebar-width]]: <$edit-text tiddler="$:/config/xnote/sidebar-width" tag=input/>
 
-Story river width without sidebar: <$edit-text tiddler="$:/config/xnote/story-width-no-sidebar" tag=input/>
+[[Story river width without sidebar|$:/config/xnote/story-width-no-sidebar]]: <$edit-text tiddler="$:/config/xnote/story-width-no-sidebar" tag=input/>
 
-Story river width with sidebar: <$edit-text tiddler="$:/config/xnote/story-width-sidebar" tag=input/>
+[[Story river width with sidebar|$:/config/xnote/story-width-sidebar]]: <$edit-text tiddler="$:/config/xnote/story-width-sidebar" tag=input/>
 
-Sidebar style: <$select tiddler='$:/config/Sidebar/Sections' tooltip='Select sidebar style'>
+[[Sidebar style|$:/config/Sidebar/Sections]]: <$select tiddler='$:/config/Sidebar/Sections' tooltip='Select sidebar style'>
 <option>sidebar-button</option>
 <option>sidebar-tabs</option>
 <option>notebook</option>
