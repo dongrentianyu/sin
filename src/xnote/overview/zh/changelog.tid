@@ -1,6 +1,10 @@
 title: $:/plugins/mabuqian/xnote/overview/zh/changelog
 type: text/vnd.tiddlywiki
 
+! 0.2.0
+
+增加了右侧边栏。同时顶部栏和右侧边栏都可以选择是否展示。但尽量保留一种。因为如果没有页面按钮，TiddlyWiki 使用起来会非常麻烦。
+
 ! 0.1.0
 
 移除了顶部搜索框，只保留了页面按钮。同时侧边栏也移除了主标题和副标题，取而代之的是简易搜索框。侧边栏可供选择不同样式。

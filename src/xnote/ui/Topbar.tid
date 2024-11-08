@@ -2,6 +2,7 @@ tags: $:/tags/PageTemplate
 title: $:/plugins/mabuqian/xnote/ui/Topbar
 type: text/vnd.tiddlywiki
 
+<%if [{$:/config/xnote/topbar}match[true]] %>
 <$reveal state="$:/state/notebook-topbar" type="match" text="yes" default="yes" retain="yes" animate="yes">
   <div class="nc-topbar-wrapper">
     <div class="nc-bar nc-topbar tc-adjust-top-of-scroll">
@@ -20,4 +21,4 @@ type: text/vnd.tiddlywiki
     </div>
   </div>
 </$reveal>
-
+<%endif%>

@@ -1,0 +1,28 @@
+tags: $:/tags/PageTemplate
+title: $:/plugins/mabuqian/xnote/ui/Rightbar
+type: text/vnd.tiddlywiki
+
+<%if [{$:/config/xnote/rightbar}match[true]] %>
+<$reveal state="$:/state/notebook-topbar" type="match" text="yes" default="yes" retain="yes" animate="yes">
+<style>
+.xnote-rightmenu {
+    display: block;
+    padding: 0px 0px 0px 10px;
+    position: fixed;
+    right: 0px;
+    top: 60px;
+    width: 50px;
+    z-index: 98;
+    color: #000000;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.xnote-rightmenu .tc-page-controls{
+gap:10px;
+}
+</style>
+<div class="xnote-rightmenu tc-page-controls">
+{{$:/core/ui/SideBarSegments/page-controls}}
+</div>
+</$reveal>
+<%endif%>

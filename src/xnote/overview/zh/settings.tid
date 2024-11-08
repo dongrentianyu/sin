@@ -18,3 +18,7 @@ type: text/vnd.tiddlywiki
 <option>sidebar-tabs</option>
 <option>notebook</option>
 </$select>
+
+[[顶部栏|$:/config/xnote/topbar]]<$checkbox  tiddler="$:/config/xnote/topbar" field="text" checked="true" unchecked="false" default="false"> 是否启用顶部栏？（默认关闭）</$checkbox>
+
+[[右侧边栏|$:/config/xnote/rightbar]]<$checkbox  tiddler="$:/config/xnote/rightbar" field="text" checked="true" unchecked="false" default="true"> 是否启用右侧边栏？（默认开启）</$checkbox>

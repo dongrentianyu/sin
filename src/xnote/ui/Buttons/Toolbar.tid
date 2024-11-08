@@ -1,6 +1,6 @@
 tags: $:/tags/ViewToolbar
-caption: Toolbar
-description: The toolbar of the xnote plugin
+caption: {{$:/plugins/mabuqian/xnote/images/bars}} Sidebar open/close button
+description: Sidebar open/close button
 title: $:/plugins/mabuqian/xnote/ui/Buttons/toolbar
 type: text/vnd.tiddlywiki
 

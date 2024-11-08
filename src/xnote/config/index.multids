@@ -11,3 +11,5 @@ xnote/sidebar-width: 450px
 xnote/topbar-height: 60px
 xnote/story-width-sidebar: 750px
 xnote/story-width-no-sidebar: 1200px
+xnote/topbar: false
+xnote/rightbar: true
