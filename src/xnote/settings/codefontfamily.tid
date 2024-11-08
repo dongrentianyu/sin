@@ -4,4 +4,4 @@ tags:
 title: $:/plugins/mabuqian/xnote/settings/codefontfamily
 type: text/vnd.tiddlywiki
 
-"Fira Mono","Liberation Mono",Menlo,Courier,monospace
+{{$:/themes/tiddlywiki/vanilla/settings/codefontfamily}}

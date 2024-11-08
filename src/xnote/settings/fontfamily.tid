@@ -4,4 +4,4 @@ tags:
 title: $:/plugins/mabuqian/xnote/settings/fontfamily
 type: text/vnd.tiddlywiki
 
-"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+{{$:/themes/tiddlywiki/vanilla/settings/fontfamily}}
