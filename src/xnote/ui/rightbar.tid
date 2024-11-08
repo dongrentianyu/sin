@@ -3,11 +3,12 @@ title: $:/plugins/mabuqian/xnote/ui/Rightbar
 type: text/vnd.tiddlywiki
 
 <%if [{$:/config/xnote/rightbar}match[true]] %>
-<$reveal state="$:/state/notebook-topbar" type="match" text="yes" default="yes" retain="yes" animate="yes">
+<$reveal state="$:/state/notebook-rightbar" type="match" text="yes" default="yes" retain="yes" animate="yes">
 <style>
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}} ) {
 .xnote-rightmenu {
     display: block;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 15px;
     position: fixed;
     right: 0px;
     top: 60px;
@@ -19,6 +20,13 @@ type: text/vnd.tiddlywiki
 }
 .xnote-rightmenu .tc-page-controls{
 gap:10px;
+}
+}
+
+@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+    .xnote-rightmenu {
+        display: none; /* 例如，设置为不显示 */
+    }
 }
 </style>
 <div class="xnote-rightmenu tc-page-controls">
