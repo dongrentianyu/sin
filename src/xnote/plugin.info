@@ -2,8 +2,8 @@
   "title": "$:/plugins/mabuqian/xnote",
   "name": "xnote",
   "author": "mabuqian",
-  "description": "some theme",
+  "description": "A modified version of the notebook theme plugin",
   "plugin-type": "plugin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "list": "readme settings changelog"
 }
