@@ -1,0 +1,37 @@
+created: 20250110133141381
+modified: 20250110133210294
+tags: 
+title: 精简模式代码3
+type: text/vnd.tiddlywiki
+
+
+```
+\define xnote-short(text)
+  <$reveal state="$:/config/xnote/short-mode" type="match" text="true">
+    $text$
+  </$reveal>
+\end
+
+<!-- 增加条件，设置精简模式-->
+
+<<xnote-short """
+media (min-width: 960px) {
+  .tc-tiddler-frame {
+        padding: 10px 10px 10px 10px;
+        width: auto;
+        border-radius: 12px;
+    }
+}
+
+div.tc-tiddler-frame {
+  width: 100% !important;
+  margin: 5px 0 !important;
+  background: <<colour tiddler-background>>;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.12);
+  border-radius: 6px !important;
+  padding: 2px 2px 2px 2px !important;
+}
+
+""">>
+
+```

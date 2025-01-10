@@ -1,0 +1,37 @@
+created: 20250110120906137
+modified: 20250110121347091
+tags: 
+title: 精简模式代码
+type: text/vnd.tiddlywiki
+
+
+```
+<!-- 增加条件，设置精简模式-->
+
+<$reveal type="match" state="$:/config/xnote/short-mode" text="true">
+
+div.tc-tiddler-frame {
+  width: 100% !important;
+  margin: 5px 0 !important;
+  background: <<colour tiddler-background>>;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.12);
+  border-radius: 6px !important;
+  padding: 2px 2px 2px 2px !important;
+}
+
+</$reveal>
+<$reveal type="nomatch" state="$:/config/xnote/short-mode" text="true">
+
+div.tc-tiddler-frame {
+  width: 100%;
+  margin: 20px 0;
+  background: <<colour tiddler-background>>;
+  box-shadow: 0 5px 20px rgba(0,0,0, 0.12);
+  border-radius: 6px;
+  padding: 42px 60px 60px 60px;
+}
+
+
+
+</$reveal>
+```

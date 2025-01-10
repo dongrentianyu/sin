@@ -1,0 +1,4 @@
+title: $:/plugins/mabuqian/xnote/metrics/short-mode
+type: text/vnd.tiddlywiki
+
+{{$:/config/xnote/short-mode}}

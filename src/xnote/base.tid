@@ -1,5 +1,3 @@
-created: 20200419141443144
-modified: 20210120224227503
 tags: $:/tags/Stylesheet
 title: $:/plugins/mabuqian/xnote/base
 type: text/vnd.tiddlywiki
@@ -14,6 +12,12 @@ type: text/vnd.tiddlywiki
 
 \define if-reveal-tiddler-controls-on-hover(text)
   <$reveal state="$:/plugins/mabuqian/xnote/options/reveal-tiddler-controls-on-hover" type="match" text="yes">
+    $text$
+  </$reveal>
+\end
+
+\define xnote-short(text)
+  <$reveal state="$:/config/xnote/short-mode" type="match" text="true">
     $text$
   </$reveal>
 \end
@@ -38,10 +42,40 @@ div.tc-sidebar-header {
   margin-top: 34px !important;
 }
 
+<!-- 增加条件，设置精简模式-->
+
+<<xnote-short """
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+  .tc-tiddler-frame {
+        padding: 10px 10px 10px 10px;
+        width: auto;
+        border-radius: 6px;
+    }
+}
+
+div.tc-tiddler-frame {
+  width: 100% !important;
+  margin: 5px 0 !important;
+  background: <<colour tiddler-background>>;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.12);
+  border-radius: 6px !important;
+  padding: 2px 2px 2px 2px !important;
+}
+
+""">>
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+  .tc-tiddler-frame {
+        padding: 28px 42px 42px 42px;
+        width: 686px;
+        border-radius: 2px;
+    }
+}
+
 div.tc-tiddler-frame {
   width: 100%;
   margin: 20px 0;
-  background: <<colour tiddler-background>>;
+  background: #ffffff;
   box-shadow: 0 5px 20px rgba(0,0,0, 0.12);
   border-radius: 6px;
   padding: 42px 60px 60px 60px;

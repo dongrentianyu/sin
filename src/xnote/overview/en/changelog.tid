@@ -1,6 +1,12 @@
 title: $:/plugins/mabuqian/xnote/overview/en/changelog
 type: text/vnd.tiddlywiki
 
+! 0.3.0
+
+2025-01-10
+
+A short mode has been added to save space.
+
 ! 0.2.0
 
 Added a right sidebar. At the same time, both the top bar and the right sidebar can be chosen whether to display. However, it is advisable to keep only one. Because without the page button, using TiddlyWiki can be very troublesome.

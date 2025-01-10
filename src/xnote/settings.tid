@@ -1,7 +1,7 @@
 title: $:/plugins/mabuqian/xnote/settings
 tags: $:/tags/ControlPanel/Appearance
 list-before: $:/themes/tiddlywiki/vanilla/themetweaks
-caption: Xnote
+caption: XNOTE
 type: text/vnd.tiddlywiki
 
 <%if [{$:/language}removeprefix[$:/languages/]split[]first[2]join[]match[zh]] %>

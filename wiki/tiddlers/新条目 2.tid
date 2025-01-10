@@ -1,0 +1,33 @@
+created: 20250110130936686
+modified: 20250110130950196
+tags: 
+title: 新条目 2
+type: text/vnd.tiddlywiki
+
+<$wikify name="xnote-short" text={{{ [[$:/plugins/mabuqian/xnote/metrics/short-mode]get[text]] }}}>
+
+<%if [<xnote-short>match[true]] %>
+
+media (min-width: 960px) {
+  .tc-tiddler-frame {
+        padding: 10px 10px 10px 10px;
+        width: auto;
+        border-radius: 12px;
+    }
+}
+
+div.tc-tiddler-frame {
+  width: 100% !important;
+  margin: 5px 0 !important;
+  background: <<colour tiddler-background>>;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.12);
+  border-radius: 6px !important;
+  padding: 10px 10px 10px 10px !important;
+}
+
+<%else%>
+
+000
+
+<%endif%>
+</$wikify>

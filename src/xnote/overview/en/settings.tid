@@ -22,3 +22,5 @@ type: text/vnd.tiddlywiki
 [[Top Bar|$:/config/xnote/topbar]]<$checkbox tiddler="$:/config/xnote/topbar" field="text" checked="true" unchecked="false" default="false"> Enable top bar? (Default is off)</$checkbox>
 
 [[Right Sidebar|$:/config/xnote/rightbar]]<$checkbox tiddler="$:/config/xnote/rightbar" field="text" checked="true" unchecked="false" default="true"> Enable right sidebar? (Default is on)</$checkbox>
+
+[[Short Mode|$:/config/xnote/short-mode]]<$checkbox tiddler="$:/config/xnote/short-mode" field="text" checked="true" unchecked="false" default="false"> Is short mode enabled? (off by default)</$checkbox>

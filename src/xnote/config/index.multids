@@ -13,3 +13,4 @@ xnote/story-width-sidebar: 750px
 xnote/story-width-no-sidebar: 1200px
 xnote/topbar: false
 xnote/rightbar: true
+xnote/short-mode: false

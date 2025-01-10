@@ -1,0 +1,54 @@
+created: 20250110131619686
+modified: 20250110131636541
+tags: 
+title: 精简模式代码2
+type: text/vnd.tiddlywiki
+
+
+```
+<!-- 增加条件，设置精简模式-->
+
+<$wikify name="xnote-short" text={{{ [[$:/plugins/mabuqian/xnote/metrics/short-mode]get[text]]  }}}>
+
+<%if [<xnote-short>match[true]] %>
+
+media (min-width: 960px) {
+  .tc-tiddler-frame {
+        padding: 10px 10px 10px 10px;
+        width: auto;
+        border-radius: 12px;
+    }
+}
+
+div.tc-tiddler-frame {
+  width: 100% !important;
+  margin: 5px 0 !important;
+  background: <<colour tiddler-background>>;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.12);
+  border-radius: 6px !important;
+  padding: 10px 10px 10px 10px !important;
+}
+
+<%else%>
+
+media (min-width: 960px) {
+  .tc-tiddler-frame {
+        padding: 28px 42px 42px 42px;
+        width: 686px;
+        border-radius: 2px;
+    }
+}
+
+div.tc-tiddler-frame {
+  width: 100%;
+  margin: 20px 0;
+  background: <<colour tiddler-background>>;
+  box-shadow: 0 5px 20px rgba(0,0,0, 0.12);
+  border-radius: 6px;
+  padding: 42px 60px 60px 60px;
+}
+
+<%endif%>
+</$wikify>
+
+```

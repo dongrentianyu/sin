@@ -22,3 +22,5 @@ type: text/vnd.tiddlywiki
 [[顶部栏|$:/config/xnote/topbar]]<$checkbox  tiddler="$:/config/xnote/topbar" field="text" checked="true" unchecked="false" default="false"> 是否启用顶部栏？（默认关闭）</$checkbox>
 
 [[右侧边栏|$:/config/xnote/rightbar]]<$checkbox  tiddler="$:/config/xnote/rightbar" field="text" checked="true" unchecked="false" default="true"> 是否启用右侧边栏？（默认开启）</$checkbox>
+
+[[精简模式|$:/config/xnote/short-mode]]<$checkbox  tiddler="$:/config/xnote/short-mode" field="text" checked="true" unchecked="false" default="false"> 是否启用精简模式？（默认关闭）</$checkbox>
