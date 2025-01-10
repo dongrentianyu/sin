@@ -4,6 +4,6 @@
   "author": "mabuqian",
   "description": "A modified version of the notebook theme plugin",
   "plugin-type": "plugin",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "list": "readme settings changelog"
 }
