@@ -4,6 +4,6 @@
   "author": "mabuqian",
   "description": "a new control panel",
   "plugin-type": "plugin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "list": "readme"
 }
