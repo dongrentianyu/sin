@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/mabuqian/PopControlPanel",
+  "name": "Popup Control Panel",
+  "author": "mabuqian",
+  "description": "a new control panel",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}

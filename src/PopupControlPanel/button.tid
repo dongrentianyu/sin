@@ -1,0 +1,7 @@
+tags: 
+title: $:/plugins/mabuqian/PopControlPanel/button
+
+<$button class="tc-btn-invisible">
+<$action-sendmessage $message="tm-modal" $param="$:/plugins/mabuqian/PopControlPanel/param" />
+test
+</$button>

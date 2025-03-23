@@ -11,12 +11,12 @@ type: text/vnd.tiddlywiki
     padding: 0px 0px 0px 15px;
     position: fixed;
     right: 0px;
-    top: 60px;
+    top: 20px;
     width: 50px;
     z-index: 98;
     color: #000000;
     font-size: 20px;
-    opacity: 0.5;
+    opacity: 0.25;
 }
 .xnote-rightmenu .tc-page-controls{
 gap:10px;

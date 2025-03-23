@@ -1,0 +1,40 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/mabuqian/PopControlPanel/NewControlPanelCss
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.ttsidebar {
+  width: 150px;
+  background: #f0f0f0;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.tab-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 8px;
+  background: #ddd;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.tab-button:hover {
+  background: #ccc;
+}
+
+.ttcontent {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.ttcontent-section {
+  display: none;
+}

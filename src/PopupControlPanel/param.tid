@@ -1,0 +1,107 @@
+title: $:/plugins/mabuqian/PopControlPanel/param
+class: custom-modal
+footer: <$button message="tm-close-tiddler">关闭</$button>
+height: 90%
+help: 
+mask-closable: yes
+subtitle: 
+tags: 
+width: 90%
+
+<style>
+.custom-modal  .tc-modal{
+background-color: red; /* 自定义模态框背景颜色 */
+border: 2px solid #ccc; /* 添加边框 */
+width:{{!!width}};
+height: {{!!height}};
+z-index: 1100;
+background-color: #ffffff;
+border: 1px solid #999999;
+/*center the modal on the screen*/
+inset:0;
+margin:auto;
+}
+/* Modals */
+.custom-modal  .tc-modal-wrapper {
+	position: fixed;
+	overflow: auto;
+	overflow-y: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 900;
+}
+.custom-modal  .tc-modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	background-color: #283c46;
+}
+@media (max-width: 55em) {
+	.tc-modal {
+		position: fixed;
+		top: 1em;
+		left: 1em;
+		right: 1em;
+	}
+.custom-modal  .tc-modal-body {
+		overflow-y: auto;
+		max-height: 400px;
+		max-height: 60vh;
+	}
+}
+
+@media (min-width: 55em) {
+.custom-modal.tc-modal {
+		position: fixed;
+		top: 2em;
+		left: 0%;
+		width: {{!!width}};
+		height: {{!!height}};
+	}.custom-modal.tc-modal-body {
+		overflow-y: auto;
+		max-height: 600px;
+		max-height: 60vh;
+	}
+}
+
+.custom-modal.tc-modal-header {
+	padding: 5px 10px;
+	border-bottom: 1px solid #eeeeee;
+}
+.custom-modal.tc-modal-header h3 {
+	margin: 0;
+	line-height: 14px;
+}
+.custom-modal.tc-modal-header img, .tc-modal-header svg {
+	width: 1em;
+	height: 1em;
+}
+.custom-modal.tc-modal-body {
+	padding: 10px;
+}
+.custom-modal.tc-modal-footer {
+	padding: 0px 0px 0px;
+	margin-bottom: 0;
+	text-align: right;
+	background-color: #f5f5f5;
+	border-top: 1px solid #dddddd;
+}
+.custom-modal.tc-modal-prevent-scroll {
+	overflow: hidden;
+} 
+/* Centered modals */
+.custom-modal.tc-modal-centered .tc-modal {
+	width: auto;
+	top: 20%;
+	left: 20%;
+	transform: translate(-50%, -50%) !important;
+}
+
+</style>
+
+<$transclude tiddler="$:/plugins/mabuqian/PopControlPanel/NewControlPanel" mode="block"/>
