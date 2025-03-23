@@ -1,23 +1,23 @@
 tags: $:/tags/Stylesheet
 title: $:/plugins/mabuqian/PopControlPanel/NewControlPanelCss
 
-.container {
+.popControlPanelContainer {
   display: flex;
   height: 100vh;
 }
 
-.ttsidebar {
+.popControlPanelSidebar {
   width: 150px;
   background: #f0f0f0;
   padding: 10px;
   flex-shrink: 0;
 }
 
-.tab-button {
+.popControlPanel-button {
   display: block;
   width: 100%;
-  padding: 12px;
-  margin-bottom: 8px;
+  padding: 15px;
+  margin-bottom: 5px;
   background: #ddd;
   border: none;
   cursor: pointer;
@@ -25,16 +25,55 @@ title: $:/plugins/mabuqian/PopControlPanel/NewControlPanelCss
   transition: background 0.2s;
 }
 
-.tab-button:hover {
+.popControlPanel-button:hover {
   background: #ccc;
 }
 
-.ttcontent {
+.popControlPanelContent {
   flex: 1;
-  padding: 20px;
+  padding: 5px;
   overflow-y: auto;
 }
 
-.ttcontent-section {
+.popControlPanelContent-section {
   display: none;
+}
+
+<!-- 下面是自定义的弹窗样式 -->
+
+.o-tm-cm .tc-modal,
+.o-tm-cm .tc-modal-header,
+.o-tm-cm .tc-modal-body,
+.o-tm-cm .tc-modal-footer {
+  border: none;
+  background-color: #f5f5f5;
+}.o-tm-cm .tc-modal-header {
+	border-radius: 10px 10px 0 0;
+}.o-tm-cm .tc-modal {
+	border-radius: 10px;
+}.o-tm-cm .tc-modal-footer {
+	border-radius: 0 0 10px 10px;
+}@media (max-width: 500px) {
+.o-tm-cm .tc-modal {
+	width: 95% !important;
+}
+}.o-tm-cm .tc-modal-backdrop {
+  cursor: pointer;
+}
+.o-tm-cm .tc-modal {
+    width: 90vw;
+	height: 80vh;
+	top: 50%;
+	bottom: 20%;
+	max-height: 80vh;
+    border-radius: 10px;
+}.o-tm-cm .tc-modal-footer {
+  display: none;
+}
+
+@media (min-width: 55em) {
+.o-tm-cm .tc-modal-body {
+        overflow-y: auto;
+        max-height: 80vh;
+    }
 }

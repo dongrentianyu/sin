@@ -3,4 +3,4 @@ type: text/vnd.tiddlywiki
 
 ! PopupControlPanel
 
-a new contral panel
+增加一个可触发的，新的页面按钮，用来更好的展示设置内容。

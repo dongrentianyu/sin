@@ -1,19 +1,18 @@
 title: $:/plugins/mabuqian/PopControlPanel/NewControlPanel
 
 <$let 
-a="[all[shadows+tiddlers]tag[$:/tags/ControlPanel]!has[draft.of]]"
-b="[[$:/state/NewControlPanel/tab]get[text]]"
+listFilter="[all[shadows+tiddlers]tag[$:/tags/ControlPanel]!has[draft.of]]"
 >
-<div class="container">
-	<div class="ttsidebar">
-		<$list filter=<<a>> variable="thisTitle">
-			<$button class="tab-button">
+<div class="popControlPanelContainer">
+	<div class="popControlPanelSidebar">
+		<$list filter=<<listFilter>> variable="thisTitle">
+			<$button class="popControlPanel-button">
 				<$action-setfield $tiddler="$:/state/NewControlPanel/tab" text=<<thisTitle>> />
 				<$transclude $tiddler=<<thisTitle>> $field="caption"/>
 			</$button>
 		</$list>
 	</div>
-	<div class="ttcontent">
+	<div class="popControlPanelContent">
 
 		<$transclude $tiddler={{{ [[$:/state/NewControlPanel/tab]get[text]] }}}/>
 

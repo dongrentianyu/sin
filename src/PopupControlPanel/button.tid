@@ -2,6 +2,7 @@ tags:
 title: $:/plugins/mabuqian/PopControlPanel/button
 
 <$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/state/NewControlPanel/tab" text="$:/core/ui/ControlPanel/Info" />
 <$action-sendmessage $message="tm-modal" $param="$:/plugins/mabuqian/PopControlPanel/param" />
 test
 </$button>
