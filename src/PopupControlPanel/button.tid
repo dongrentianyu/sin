@@ -1,8 +1,10 @@
-tags: 
+tags: $:/tags/PageControls
+caption: {{$:/plugins/mabuqain/PopControlPanel/icon}} Pop Control Panel button
+description: Pop Control Panel button
 title: $:/plugins/mabuqian/PopControlPanel/button
 
 <$button class="tc-btn-invisible">
 <$action-setfield $tiddler="$:/state/NewControlPanel/tab" text="$:/core/ui/ControlPanel/Info" />
 <$action-sendmessage $message="tm-modal" $param="$:/plugins/mabuqian/PopControlPanel/param" />
-test
+{{$:/plugins/mabuqain/PopControlPanel/icon}} 
 </$button>
