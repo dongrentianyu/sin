@@ -1,13 +1,11 @@
-created: 20201210171047824
 description: Toggle between grey/beige colour palette
-modified: 20210118213335643
 tags: $:/tags/PageControls
 title: $:/plugins/mabuqian/xnote/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki
 
 <span class="desktop-only">
   <$vars
-    palettes="[all[tiddlers+shadows]tag[$:/tags/notebook/Palette]]"
+    palettes="[all[tiddlers+shadows]tag[$:/tags/xnote/Palette]]"
     popupTiddler=<<qualify "$:/state/notebook/palette-dropdown">>
   >
     <$button
