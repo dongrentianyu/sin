@@ -39,9 +39,8 @@ div.tc-sidebar-header {
   width: 100% !important;
   max-width: {{$:/plugins/mabuqian/xnote/metrics/story-width}} !important;
   margin: 0 auto !important;
-  margin-top: 34px !important;
 }
-
+<!-- 去除了上面margin-top: 34px !important;中的important，浏览器不会显示多余的滚动条 -->
 <!-- 增加条件，设置精简模式-->
 
 <<xnote-short """
