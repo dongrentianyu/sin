@@ -3,22 +3,29 @@ title: $:/plugins/mabuqian/PopControlPanel/NewControlPanelCss
 
 .popControlPanelContainer {
   display: flex;
-  height: 100vh;
 }
 
 .popControlPanelSidebar {
-  width: 150px;
-  background: #f0f0f0;
-  padding: 10px;
+  width: 180px;
+  height: 350px;
+  margin-bottom: 5px;
+  padding: 5px;
   flex-shrink: 0;
+  position: fixed;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 5px;
 }
 
 .popControlPanel-button {
+  border-radius: 5px;
+  background-color: #f5f5f5;
   display: block;
   width: 100%;
-  padding: 15px;
+  padding: 5px;
   margin-bottom: 5px;
-  background: #ddd;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -30,6 +37,7 @@ title: $:/plugins/mabuqian/PopControlPanel/NewControlPanelCss
 }
 
 .popControlPanelContent {
+  margin-left: 200px;
   flex: 1;
   padding: 5px;
   overflow-y: auto;
@@ -48,11 +56,11 @@ title: $:/plugins/mabuqian/PopControlPanel/NewControlPanelCss
   border: none;
   background-color: #f5f5f5;
 }.o-tm-cm .tc-modal-header {
-	border-radius: 10px 10px 0 0;
+	border-radius: 10px;
 }.o-tm-cm .tc-modal {
 	border-radius: 10px;
 }.o-tm-cm .tc-modal-footer {
-	border-radius: 0 0 10px 10px;
+	border-radius: 10px;
 }@media (max-width: 500px) {
 .o-tm-cm .tc-modal {
 	width: 95% !important;
@@ -61,12 +69,12 @@ title: $:/plugins/mabuqian/PopControlPanel/NewControlPanelCss
   cursor: pointer;
 }
 .o-tm-cm .tc-modal {
-    width: 90vw;
+  width: 90vw;
 	height: 80vh;
 	top: 50%;
 	bottom: 20%;
 	max-height: 80vh;
-    border-radius: 10px;
+  border-radius: 10px;
 }.o-tm-cm .tc-modal-footer {
   display: none;
 }
@@ -75,5 +83,6 @@ title: $:/plugins/mabuqian/PopControlPanel/NewControlPanelCss
 .o-tm-cm .tc-modal-body {
         overflow-y: auto;
         max-height: 80vh;
+        border-radius: 10px;
     }
 }

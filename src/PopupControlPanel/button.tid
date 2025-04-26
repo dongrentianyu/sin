@@ -3,8 +3,16 @@ caption: {{$:/plugins/mabuqian/PopControlPanel/icon}} Pop Control Panel button
 description: Pop Control Panel button
 title: $:/plugins/mabuqian/PopControlPanel/button
 
-<$button class="tc-btn-invisible">
+\whitespace trim
+<$button class=<<tv-config-toolbar-class>> >
 <$action-setfield $tiddler="$:/state/NewControlPanel/tab" text="$:/core/ui/ControlPanel/Info" />
 <$action-sendmessage $message="tm-modal" $param="$:/plugins/mabuqian/PopControlPanel/param" />
+<%if [<tv-config-toolbar-icons>match[yes]] %>
 {{$:/plugins/mabuqian/PopControlPanel/icon}} 
+<%endif%>
+<%if [<tv-config-toolbar-text>match[yes]] %>
+<span class="tc-btn-text">
+Pop Control Panel button
+</span>
+<%endif%>
 </$button>

@@ -13,9 +13,7 @@ listFilter="[all[shadows+tiddlers]tag[$:/tags/ControlPanel]!has[draft.of]]"
 		</$list>
 	</div>
 	<div class="popControlPanelContent">
-
-		<$transclude $tiddler={{{ [[$:/state/NewControlPanel/tab]get[text]] }}}/>
-
+		<$transclude $tiddler={{{ [[$:/state/NewControlPanel/tab]get[text]] }}} mode="block"/>
 	</div>
 </div>
 </$let>

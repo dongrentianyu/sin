@@ -2,6 +2,6 @@ title: $:/plugins/mabuqian/PopControlPanel/param
 help: 
 mask-closable: yes
 subtitle: 
-class: tc-modal-centered o-tm-cm
+class: o-tm-cm tc-modal-centered 
 
 <$transclude tiddler="$:/plugins/mabuqian/PopControlPanel/NewControlPanel" mode="block"/>
