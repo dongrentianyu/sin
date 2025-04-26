@@ -4,28 +4,18 @@ description: Sidebar open/close button
 title: $:/plugins/mabuqian/xnote/ui/Buttons/toolbar
 type: text/vnd.tiddlywiki
 
-\whitespace trim
+<$button tooltip="Toggle menu" aria-label="Sidebar open/close button" class=<<tv-config-toolbar-class>>>
 <%if [{$:/state/notebook-sidebar}match[yes]] %>
-  <$button set="$:/state/notebook-sidebar" setTo="no"  class=<<tv-config-toolbar-class>> selectedClass="tc-selected" tooltip="Toggle menu" aria-label="Toggle menu"> 
-    <$list filter="[<tv-config-toolbar-icons>match[yes]]">
-{{$:/plugins/mabuqian/xnote/images/bars}}
-    </$list>
-	<$list filter="[<tv-config-toolbar-text>match[yes]]">
-        <span class="tc-btn-text">
-				Toggle menu
-				 </span>
-				 </$list>
-</$button>
+  <$action-setfield $tiddler="$:/state/notebook-sidebar" text="no"/>
 <%else%>
-  <$button set="$:/state/notebook-sidebar" setTo="yes" tooltip="Toggle menu" class=<<tv-config-toolbar-class>> >
-   <$list filter="[<tv-config-toolbar-icons>match[yes]]">
-<span style="fill: red;">{{$:/plugins/mabuqian/xnote/images/bars}}</span>
-  </$list>
-	<$list filter="[<tv-config-toolbar-text>match[yes]]">
-        <span class="tc-btn-text">
-				Toggle menu
-				 </span>
-	</$list>
-  </$button>
+  <$action-setfield $tiddler="$:/state/notebook-sidebar" text="yes"/>
 <%endif%>
-
+<%if [<tv-config-toolbar-icons>match[yes]] %>
+{{$:/plugins/mabuqian/xnote/images/bars}}
+<%endif%>
+<%if [<tv-config-toolbar-text>match[yes]] %>
+<span class="tc-btn-text">
+Sidebar open/close button
+</span>
+<%endif%>
+</$button>

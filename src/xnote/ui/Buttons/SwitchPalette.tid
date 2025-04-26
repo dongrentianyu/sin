@@ -1,5 +1,5 @@
 description: Toggle between grey/beige colour palette
-tags: $:/tags/PageControls
+tags: 
 title: $:/plugins/mabuqian/xnote/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki
 
@@ -34,3 +34,4 @@ type: text/vnd.tiddlywiki
     </$button>
   </$vars>
 </span>
+<!-- 暂时先移除$:/tags/PageControls标签，因为我感觉用处不大 -->

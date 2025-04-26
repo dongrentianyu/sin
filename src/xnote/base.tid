@@ -35,11 +35,15 @@ div.tc-sidebar-header {
 }
 
 .tc-story-river {
-  padding: 5px 0 !important;
+  padding:  20px 10px 0px 0px !important;
   width: 100% !important;
   max-width: {{$:/plugins/mabuqian/xnote/metrics/story-width}} !important;
   margin: 0 auto !important;
+  box-sizing: border-box;
 }
+
+<!-- 增加右内边距，使得右侧边栏可以更加正常显示-->
+
 <!-- 去除了上面margin-top: 34px !important;中的important，浏览器不会显示多余的滚动条 -->
 <!-- 增加条件，设置精简模式-->
 
